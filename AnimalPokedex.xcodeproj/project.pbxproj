@@ -13,6 +13,8 @@
 		09B92FBD216172D7006580BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B92FBC216172D7006580BE /* Assets.xcassets */; };
 		09B92FC0216172D7006580BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B92FBE216172D7006580BE /* LaunchScreen.storyboard */; };
 		09B92FCB216172D7006580BE /* AnimalPokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B92FCA216172D7006580BE /* AnimalPokedexTests.swift */; };
+		09B92FD721617412006580BE /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 09B92FD521617411006580BE /* SqueezeNet.mlmodel */; };
+		09B92FD821617412006580BE /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 09B92FD621617411006580BE /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		09B92FC6216172D7006580BE /* AnimalPokedexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalPokedexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B92FCA216172D7006580BE /* AnimalPokedexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalPokedexTests.swift; sourceTree = "<group>"; };
 		09B92FCC216172D7006580BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B92FD521617411006580BE /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SqueezeNet.mlmodel; path = Models/SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		09B92FD621617411006580BE /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = Models/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 		09B92FA9216172D6006580BE = {
 			isa = PBXGroup;
 			children = (
+				09B92FD621617411006580BE /* Inceptionv3.mlmodel */,
+				09B92FD521617411006580BE /* SqueezeNet.mlmodel */,
 				09B92FB4216172D6006580BE /* AnimalPokedex */,
 				09B92FC9216172D7006580BE /* AnimalPokedexTests */,
 				09B92FB3216172D6006580BE /* Products */,
@@ -198,6 +204,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				09B92FB8216172D6006580BE /* ViewController.swift in Sources */,
+				09B92FD821617412006580BE /* Inceptionv3.mlmodel in Sources */,
+				09B92FD721617412006580BE /* SqueezeNet.mlmodel in Sources */,
 				09B92FB6216172D6006580BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
